@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>News</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        @media only screen and (max-width:760px) {
+            .row img {
+                padding: 2%;
+            }
+            
+        }
+    </style>
+</head>
+
+<body class="bg-dark">
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary w-190 sticky-top">
+        <div class="container-fluid">
+            <div class="masthead"><a aria-label="Robots" href="/"><svg class="robots-logo" viewBox="0 0 915.5 126.8">
+                        <g>
+                            <path d="M136.5,94.2l0,29.2l-26.2,0l0-23.5c0-11.7-2.9-14.8-16-14.8l-68.3,0l0,38.2l-26,0l0-120l90.4,0
+        c29.2,0,47.3,11,47.3,36.7c0,16.8-7.5,26.9-20.2,32C129.7,73.8,136.5,81.4,136.5,94.2z M26,25.7l0,37.1l57.8,0c11.9,0,26,0,26-18.5
+        c0-18.5-14.1-18.5-26-18.5L26,25.7z"></path>
+                            <path d="M147.4,63.2c0-38.9,25.7-63.2,77.5-63.2c51.7,0,77.5,24.5,77.5,63.2c0,38.9-25.8,63.6-77.5,63.6
+        C173.1,126.8,147.4,102.3,147.4,63.2z M274.5,63.2c0-27.5-17.2-40.5-49.6-40.5c-32.6,0-49.8,12.8-49.8,40.5
+        c0,27.9,17.3,40.8,49.8,40.8C257.2,104,274.5,90.9,274.5,63.2z"></path>
+                            <path d="M314,123.4l0-120l102.2,0c28.6,0,37.4,13.9,37.4,30.1c0,12.1-5.6,21.6-15.1,27.7c11.2,4.9,19.7,13.8,19.7,28.6
+        c0,20.2-11.7,33.7-40,33.7L314,123.4z M340,53l67.1,0c11.4,0,19.2,0,19.2-14.3c0-14.1-7.8-14.1-19.2-14.1l-67.1,0L340,53z
+        M340,102.2l71.7,0c10.7,0,18.5,0,18.5-14.6c0-14.8-7.8-14.8-18.5-14.8l-71.7,0V102.2z"></path>
+                            <path d="M464.9,63.2c0-38.9,25.7-63.2,77.5-63.2C594.1,0,620,24.5,620,63.2c0,38.9-25.8,63.6-77.5,63.6
+        C490.6,126.8,464.9,102.3,464.9,63.2z M592.1,63.2c0-27.5-17.2-40.5-49.6-40.5c-32.6,0-49.8,12.8-49.8,40.5
+        c0,27.9,17.3,40.8,49.8,40.8C574.7,104,592.1,90.9,592.1,63.2z"></path>
+                            <path d="M619.6,3.4l146.2,0v22.8l-60,0v97.2l-26.2,0V26.2l-60,0V3.4z"></path>
+                            <path d="M874.5,123.4H778v-22.8h93.4c18.3,0,18.3-7.5,18.3-13c0-5.4,0-12.8-18.3-12.8h-57.3C777,74.8,773,49.8,773,39
+        c0-14.7,6.5-22.9,11.9-27.2c7.1-5.6,16.7-8.4,29.3-8.4h89.3v22.8h-86.3c-18.4,0-18.4,7.1-18.4,12.8c0,5.5,0,13,18.4,13h57.3
+        c37.1,0,41.1,24.9,41.1,35.6C915.5,98.4,911.5,123.4,874.5,123.4z"></path>
+                        </g>
+                    </svg></a><span class="text-label-xs">Your guide to the world of robotics</span>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="robots.html">Robots</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="rankings.html">Rankings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="learn.html">Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="play.html">Play</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="news.html">News</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav -->
+    <section>
+        <div class="container">
+            <h1 class="text-info fs-1 mt-5 ">Robot News</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./Image/news1.jpg" alt="" class="img-fluid mt-5">
+                </div>
+                <div class="col-md-6">
+                    <p class="card-text text-white fs-1 mt-5"><input class="form-check-input me-5 " type="radio"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                        A Robot Dentist Might Be a Good Idea,Actually</p>
+                    <p class="text-secondary fs-3">Perceptive's autonomousrobot offers more accurate,steadier,and faster
+                        dentistry</p>
+                    <p class="text-secondary fs-6"> 30 JUL 2024</p>
+                </div>
+            </div><br>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="card-text text-white fs-1 mt-5"><input class="form-check-input me-5 " type="radio"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                        iRobot's Autowash Dock Is (Almost) Automated Floor Care</p>
+                    <p class="text-secondary fs-3">The Romba combo 10 Max is the first fully self-cleaning Roomba</p>
+                    <p class="text-secondary fs-6">23 JUL 2024</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./Image/news2.jpg" alt="" class="img-fluid mt-5 ">
+                </div>
+            </div><br>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="card-text text-white fs-1 mt-5"><input class="form-check-input me-5 " type="radio"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                        Robot Dogs Clean up Beaches with foot Mounted Vaccums</p>
+                    <p class="text-secondary fs-3">Thans to VERO,Genoa has fewer cigarette butts litering a ground</p>
+                    <p class="text-secondary fs-6">18 JUL 2024</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./Image/news3.jpg" alt="" class="img-fluid mt-5 ">
+                </div>
+            </div><br>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="card-text text-white fs-1 mt-5"><input class="form-check-input me-5 " type="radio"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                        The Smallest , lightest ,solar power drone takes flight</p>
+                    <p class="text-secondary fs-3">It weighs less than a nickel and can fly nonstop while the sunshines
+                    </p>
+                    <p class="text-secondary fs-6">17 JUL 2024</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./Image/news4.jpg" alt="" class="img-fluid mt-5 ">
+                </div>
+            </div><br>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="card-text text-white fs-1 mt-5"><input class="form-check-input me-5 " type="radio"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                        Soft Robot can Ampuated And Rettached Its Own Legs</p>
+                    <p class="text-secondary fs-3 ">Inspired by lizareds and ants,this robot can change its shape at
+                        will</p>
+                    <p class="text-secondary fs-6">13 JUL 2024</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./Image/news5.jpg" alt="" class="img-fluid mt-5 ">
+                </div>
+            </div><br>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./Image/news6.jpg" alt="" class="img-fluid mt-5">
+                </div>
+                <div class="col-md-6">
+                    <p class="card-text text-white fs-1 mt-5"><input class="form-check-input me-5 " type="radio"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                        Food Service Robots Just Need The Right ingredients </p>
+                    <p class="text-secondary fs-3">20 million meals later,chef robotics making robotic food prep work
+                    </p>
+                    <p class="text-secondary fs-6"> 11 JUL 2024</p>
+                </div>
+            </div><br>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="card-text text-white fs-1 mt-5"><input class="form-check-input me-5 " type="radio"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                        Sea Drones in the Russia-Ukraine War Inspire New Tactics</p>
+                    <p class="text-secondary fs-3">Navy planners see a defensive role frone drones ina China-Taiwan war
+                    </p>
+                    <p class="text-secondary fs-6">10 JUL 2024</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./Image/news7.jpg" alt="" class="img-fluid mt-5 ">
+                </div>
+            </div><br>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="card-text text-white fs-1 mt-5"><input class="form-check-input me-5 " type="radio"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                        Persona AI Brings Calm Experience to the Hectic Humanoid Industry</p>
+                    <p class="text-secondary fs-3">Nic Rad Ford and jerry Prad are buliding a multipurpose commercial
+                        humanoid</p>
+                    <p class="text-secondary fs-6">30 JUN 2024</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./Image/news8.jpg" alt="" class="img-fluid mt-5 ">
+                </div>
+            </div><br>
+            <hr class="text-white">
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="card-text text-white fs-1 mt-5"><input class="form-check-input me-5 " type="radio"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                        Why Not Give Robots Foot-Eyes?</p>
+                    <p class="text-secondary fs-3">Can Camreras inside of robots' feethelp them for walk</p>
+                    <p class="text-secondary fs-6">28 JUL 2024</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./Image/news9.jpg" alt="" class="img-fluid mt-5 ">
+                </div>
+            </div><br>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="card-text text-white fs-1 mt-5"><input class="form-check-input me-5 " type="radio"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                        Video Friday: Humanoids Get a Job</p>
+                    <p class="text-secondary fs-3 ">Your weekly selecton of awesome robot videos</p>
+                    <p class="text-secondary fs-6">28 JUL 2024</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./Image/news10.jpg" alt="" class="img-fluid mt-5 ">
+                </div>
+            </div><br>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./Image/news11.jpg" alt="" class="img-fluid mt-5">
+                </div>
+                <div class="col-md-6">
+                    <p class="card-text text-white fs-1 mt-5"><input class="form-check-input me-5 " type="radio"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                        Heres the Most Buglike Robot Bug Yet </p>
+                    <p class="text-secondary fs-3">It can take Off hove,land,crawl,and,even, flip, itself over</p>
+                    <p class="text-secondary fs-6"> 19 JUL 2024</p>
+                </div>
+            </div><br>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="card-text text-white fs-1 mt-5"><input class="form-check-input me-5 " type="radio"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                        Video Friday: Drone vs. Flying Canoe</p>
+                    <p class="text-secondary fs-3">Your weekly selecton of awesome robot videos</p>
+                    <p class="text-secondary fs-6">14 JUL 2024</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./Image/news12.jpg" alt="" class="img-fluid mt-5 ">
+                </div>
+            </div><br>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="card-text text-white fs-1 mt-5"><input class="form-check-input me-5 " type="radio"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                        The Mythical Non-Roboticist</p>
+                    <p class="text-secondary fs-3">Wouldn't it be great if everyone could do robotics?</p>
+                    <p class="text-secondary fs-6">09 JUN 2024</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./Image/news13.jpg" alt="" class="img-fluid mt-5 ">
+                </div>
+            </div><br>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="card-text text-white fs-1 mt-5"><input class="form-check-input me-5 " type="radio"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                        Will Scaling Solve Robotics</p>
+                    <p class="text-secondary fs-3">The idea of solving biggest robotics challenges by traininglarge
+                        model is sparking debate</p>
+                    <p class="text-secondary fs-6">28 MAY 2024</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./Image/news14.jpg" alt="" class="img-fluid mt-5 ">
+                </div>
+            </div><br>
+            <hr class="text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="card-text text-white fs-1 mt-5"><input class="form-check-input me-5 " type="radio"
+                            name="flexRadioDefault" id="flexRadioDefault1">
+                            Disney's Robots Use Rockets to Stick the Landing</p>
+                    <p class="text-secondary fs-3 ">Water Rockets help flying robots makean entrance without it being their last </p>
+                    <p class="text-secondary fs-6">12 MAY 2024</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./Image/news15.jpg" alt="" class="img-fluid mt-5 ">
+                </div>
+            </div><br>
+            <hr class="text-white">
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <a href="#" class="text-secondary ">ABOUT IEEE
+            </a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#" class="text-secondary ">CONTACT & SUPPORT</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#" class="text-secondary ">ACCESSIBILITY</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#" class="text-secondary ">NONDISCRIMINATION POLICY</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#" class="text-secondary ">TERMS
+            </a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#" class="text-secondary ">IEEE PRIVACY POLICY</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="#" class="text-secondary ">COOKIE PREFERENCES
+            </a>
+            <p class="text-secondary mt-4">Copyright © 2024 IEEE — All rights reserved. A not-for-profit organization,
+                IEEE is the
+                world's largest technical professional organization dedicated to advancing technology for the benefit of
+                humanity.</p>
+        </div>
+        <hr class="text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="text-secondary">Structured content powered by <a href="#"
+                            class="text-secondary">Sanity.io</a>.</p>
+                </div>
+                <div class="col-md-5"></div>
+                <div class="col-md-3">
+                    <p>Site by <a href="" class="text-secondary">Pentagram</a> and <a href=""
+                            class="text-secondary">Standard</a>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
